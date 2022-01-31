@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Header from './Components/Header';
 import SectionMain from './Components/SectionMain';
 import Section from './Components/Section';
+import TeamSection from './Components/TeamSection';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <SectionMain/>
       <Section/>
+      <TeamSection/>
     </Container>
   );
 }
